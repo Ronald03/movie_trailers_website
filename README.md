@@ -16,7 +16,7 @@ This python script helps you create a website of your favorite movies trailers w
 ```
 avatar = media.Movie("Avatar",
                      "A marine on an alien planet",
-                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Te                                  aser-Poster.jpg",
+                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                      "https://youtu.be/5PSNL1qE6VY")
 
 movies = [avatar]
