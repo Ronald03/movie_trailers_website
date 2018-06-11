@@ -2,26 +2,28 @@
 This python script helps you create a website of your favorite movies trailers with just a few coding lines.
 
 ## Install
-
-  - Fork this repository
-  - Clone repository to your computer
+ - Download python from [here](https://www.python.org/)
+ - Fork and clone this repository [here](https://github.com/Ronald03/movie_trailers_website)
+  
  
 ## How to use
- - Open the show_trailer.py with python IDLE
- - Create instances of media.movie to input the details of each of your favorite movies
- - Create an array with the movies just created
- - Call the `fresh_tomatoes.open_movies_page('array')` and pass the  _movies_  array to it
+- To read or modify the code, go to the directory where you cloned or downloaded the code
+- Use python IDLE or a text editor (i.e. SublimeText 3) to inspect and modify the code
+- To see the result of the code run the fresh_tomatoes.py file by pressing (F5) from the Python IDLE or from a terminal by going to the directory and typing 'python fresh_tomatoes.py'
+- A browser tab should open with your Movie trailer page
  
-### Example of instanciation:
+### To add new movies
+- Open the 'show_trailer.py' with a text editor or by ritgh clicking the file and choosing Edit with IDLE
+- Use the format shown below:
+ 
 ```
-avatar = media.Movie("Avatar",
-                     "A marine on an alien planet",
-                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://youtu.be/5PSNL1qE6VY")
+new_movie = media.Movie("title",
+                     "storyline of the movie",
+                     "Link of the poster Image",
+                     "Link of the Video trailer")
 
-movies = [avatar]
+movies = [new_movie] //add your new movies separated by commas
 fresh_tomatoes.open_movies_page(movies)
 ```
 ## License
-
 This is .....**free to the public!**
